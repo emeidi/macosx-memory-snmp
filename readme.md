@@ -71,3 +71,8 @@ In the cacti web interface
 1. Enjoy!
 
 ![alt text](https://raw.github.com/emeidi/macosx-memory-snmp/master/mac_memory_usage.png "Example Memory Usage")
+
+Links
+=====
+* http://apple.stackexchange.com/questions/4286/is-there-a-mac-os-x-terminal-version-of-the-free-command-in-linux-systems
+* http://www.cmdln.org/2011/04/28/extended-monitoring-via-snmp/
