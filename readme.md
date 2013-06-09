@@ -4,7 +4,7 @@ You are monitoring one or several computers running Mac OS X on your local netwo
 
 In order to remedy this situation, I borrowed two scripts available online, modified and integrated them into my setup.
 
-Using the `memory.py` script, I can insert information from running `vm_stat` on the local computer (ie. the computer to be monitored by cacti) into SNMP.
+Using the `memory.py` script and some tweaks to `/etc/snmp/snmpd.conf`, I can insert information from running `vm_stat` on the local computer (ie. the computer to be monitored by cacti) into SNMP.
 
 Using `check_snmp_extend.py` - or actually rather the wrapper script `mac_memory.sh` - I can query the SNMP servers on all my Macs for the memory attributes provided by `memory.py` and pass this information to cacti.
 
