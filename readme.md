@@ -70,4 +70,4 @@ In the cacti web interface
 1. Add the graph template `Mac OS X - Memory Usage - Graph Template` to an existing device
 1. Enjoy!
 
-![alt text](https://github.com/emeidi/mac_memory_usage.png "Example Memory Usage")
+![alt text](https://raw.github.com/emeidi/macosx-memory-snmp/master/mac_memory_usage.png "Example Memory Usage")
