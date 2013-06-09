@@ -13,11 +13,11 @@ Installation Instructions
 
 On the Mac you want to monitor using SNMP
 -----------------------------------------
-1. Copy memory.py to a convenient location on your Mac, e.g. /usr/local/bin
-1. Make memory.py readable and executable for the SNMP user
+1. Copy `memory.py` to a convenient location on your Mac, e.g. /usr/local/bin
+1. Make `memory.py` readable and executable for the SNMP user
 1. Add all lines starting with `exec` in snmpd.conf to /etc/snmp/snmpd.conf
   * Adjust path to `memory.py` according to the location of the script defined in first step
-1. Restart snmpd daemon using restart-snmp.sh
+1. Restart snmpd daemon using `restart-snmp.sh`
 
 If you want to check whether SNMP returns memory information, execute the following command on the Mac you want to monitor:
 

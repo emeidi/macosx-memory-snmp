@@ -1,7 +1,9 @@
 #!/bin/sh
 
-# Version 0.1
-# Author: Mario Aeby, info@eMeidi.com
+# Purpose: Calls check_snmp_extend.py for a selected host and retrieves memory attributes injected into SNMP by the script memory.py running on the host
+
+# Author:  Mario Aeby, info@eMeidi.com
+# Version: 0.1
 # github.com/emeidi/macosx-memory-snmp
 
 PYTHON=`which python`
