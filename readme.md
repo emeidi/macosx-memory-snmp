@@ -1,6 +1,6 @@
 Purpose
 =======
-You are monitoring one or several computers running Mac OS X on your local network using cacti — but the Memory Usage graph is empty? No wonder: Apple does not provide /proc/meminfo where net-snmp usually would derive this information from.
+You are monitoring one or several computers running Mac OS X on your local network using cacti — but the Memory Usage graph is empty? No wonder: Apple does not provide `/proc/meminfo` where net-snmp usually would derive this information from.
 
 In order to remedy this situation, I borrowed two scripts available online, modified and integrated them into my setup.
 
@@ -15,7 +15,7 @@ On the Mac you want to monitor using SNMP
 -----------------------------------------
 1. Copy `memory.py` to a convenient location on your Mac, e.g. /usr/local/bin
 1. Make `memory.py` readable and executable for the SNMP user
-1. Add all lines starting with `exec` in snmpd.conf to /etc/snmp/snmpd.conf
+1. Add all lines starting with `exec` in snmpd.conf to `/etc/snmp/snmpd.conf`
   * Adjust path to `memory.py` according to the location of the script defined in first step
 1. Restart snmpd daemon using `restart-snmp.sh`
 
@@ -62,7 +62,7 @@ UCD-SNMP-MIB::extErrFixCmd.5 = STRING:
 
 On the cacti server
 -------------------
-1. Copy `mac_memory.sh` and `check_snmp_extend.py` to `<cacti>/resourcess/scripts`
+1. Copy `mac_memory.sh` and `check_snmp_extend.py` to `<cacti>/resources/scripts`
 
 In the cacti web interface
 --------------------------
