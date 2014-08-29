@@ -62,10 +62,12 @@ UCD-SNMP-MIB::extErrFixCmd.5 = STRING:
 
 On the cacti server
 -------------------
-1. Copy `mac_memory.sh` and `check_snmp_extend.py` to `<cacti>/resources/scripts`
+1. Copy `mac_memory.sh` and `check_snmp_extend.py` to `<cacti>/scripts`
 
 In the cacti web interface
 --------------------------
+1. Log into the administration interface
+1. In the console tab, select "Import Templates" in the section "Import/Export"
 1. Import `cacti_graph_template_mac_os_x_-_memory_usage_-_graph_template.xml`
 1. Add the graph template `Mac OS X - Memory Usage - Graph Template` to an existing device
 1. Enjoy!
